@@ -1,0 +1,13 @@
+version: "3"
+services:
+  jenkins:
+    build: .
+    ports:
+     - "5000:8080"
+     - "5001:50000"
+    volumes:
+     - simplest-sync:/var/jenkins_home:nocopy
+volumes:
+  simplest-sync:
+    external: true
+

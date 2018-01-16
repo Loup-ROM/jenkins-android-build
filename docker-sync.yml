@@ -1,0 +1,5 @@
+version: "2"
+syncs:
+  #Name must be unique.
+  simplest-sync: # add -sync as a convention
+    src: '~/docker-volumes/jenkins'
