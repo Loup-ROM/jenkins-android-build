@@ -21,3 +21,6 @@ docker-sync-stack start
 Jenkins will be at `localhost:5000`
 docker sync will look for a directory in `~/docker-volumes/jenkins`
 
+#### Not working in OSX?
+Solution [here](https://github.com/jenkinsci/docker/issues/177#issuecomment-268137665)
+
