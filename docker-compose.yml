@@ -1,13 +1,13 @@
 version: "3"
 services:
-  jenkins:
+  jenkins-alpine:
     build: .
     ports:
      - "5000:8080"
      - "5001:50000"
     volumes:
-     - simplest-sync:/var/jenkins_home:nocopy
+     - simplest-alpine-sync:/var/jenkins_home:nocopy
 volumes:
-  simplest-sync:
+  simplest-alpine-sync:
     external: true
 
