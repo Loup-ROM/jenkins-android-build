@@ -40,7 +40,8 @@ RUN apt-get install -y \
 	schedtool \
 	squashfs-tools \
 	xsltproc \
-	zlib1g-dev
+	zlib1g-dev \
+	rsync
 
 # Openjdk-8-jdk is already installed
 
