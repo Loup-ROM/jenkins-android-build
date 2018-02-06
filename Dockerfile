@@ -42,7 +42,9 @@ RUN apt-get install -y \
 	xsltproc \
 	zlib1g-dev \
 	rsync \
-	autoconf
+	autoconf \
+	automake \
+	perl
 
 # Openjdk-8-jdk is already installed
 
