@@ -5,7 +5,7 @@ USER root
 ADD libfl.so.2.0.0 /usr/lib/
 RUN ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/libfl.so
 RUN ln -s /usr/lib/libfl.so.2.0.0 /usr/lib/libfl.so.2
-RUN apt-get update
+RUN apt-get update --fix-missing
  
 # Kernel build dependencies
 RUN apt-get install -y \
