@@ -17,7 +17,8 @@ RUN apt-get install -y \
 	libfl-dev \
 	libncurses5-dev \
 	flex \
-	bc 
+	bc \
+	kmod
 
 # Android rom build dependencies
 RUN apt-get install -y \
