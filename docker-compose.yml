@@ -7,7 +7,8 @@ services:
      - "5001:50000"
     volumes:
      - simplest-sync:/var/jenkins_home:nocopy
+     - /etc/timezone:/etc/timezone:ro
+     - /etc/localtime:/etc/localtime:ro
 volumes:
   simplest-sync:
     external: true
-
